@@ -1,4 +1,4 @@
-# PULL
+# Quick Start
 
 
 ```
@@ -19,4 +19,14 @@ cd /data
 deckard.sh
 ```
 
+
+# Build the Image
+
+  ```
+  git clone https://github.com/gulaftab/DeckardDockerised.git
+
+  cd DeckardDockerised
+
+  docker build -t cdas/deckard .
+  ```
 
